@@ -1,0 +1,27 @@
+.hanging-man{
+    width:16rem;
+    display: flex;
+    justify-content: center;
+}
+.hanging__man-image{
+    width:45%;
+    height: 100%;
+}
+.game-over{
+    position: absolute;
+    top: 90%;
+    color: red;
+    letter-spacing: .1rem;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    transform: rotate(-32deg);
+    border-radius: 1rem;
+    background: black;
+    padding: 0.12rem;
+}
+.retry-btn{
+    position: absolute;
+    top: 113%;
+    font-size: 1.2rem;
+    font-weight: bold;
+}

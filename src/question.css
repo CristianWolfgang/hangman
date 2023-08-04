@@ -1,0 +1,17 @@
+.question__container p {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.hidden__letters-container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.hidden__letter{
+    width:1rem;
+    height: 1rem;
+    border-bottom: 2px solid black;
+    padding-bottom: .2rem;
+    font-size: 1.2rem;
+}
